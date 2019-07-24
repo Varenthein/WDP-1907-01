@@ -52,3 +52,9 @@
     }
   }
 }
+
+.post-box-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
