@@ -54,13 +54,16 @@
 }
 
 .post-box-link {
+  // Class created to make a link from whole post-box div
   &:hover {
     text-decoration: none;
   }
   &:hover .post-info h5 {
+    // selector created to fix a bug
     color: $primary;
   }
   &:hover .post-info .more span {
+    // selector created to fix a bug
     background-color: $primary;
   }
 }
