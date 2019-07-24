@@ -60,4 +60,7 @@
   &:hover .post-info h5 {
     color: $primary;
   }
+  &:hover .post-info .more span {
+    background-color: $primary;
+  }
 }
