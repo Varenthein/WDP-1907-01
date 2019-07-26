@@ -33,7 +33,7 @@
     padding: 25px;
 
     h5 {
-      color: $primary;
+      color: $post-info-text-color;
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 1px;
@@ -42,7 +42,7 @@
     p {
       font-size: 14px;
       line-height: 24px;
-      color: rgb(103, 103, 103);
+      color: $post-info-text-color;
       text-align: justify;
     }
 
@@ -50,5 +50,22 @@
       text-align: center;
       padding-top: 30px;
     }
+  }
+}
+
+.post-box-link {
+  // Class created to make a link from whole post-box div
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover .post-info h5 {
+    // selector created to fix a bug
+    color: $primary;
+  }
+
+  &:hover .post-info .more span {
+    // selector created to fix a bug
+    background-color: $primary;
   }
 }
