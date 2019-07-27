@@ -78,5 +78,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .price {
+      max-height: 34px;
+
+      div {
+        display: inline-block;
+      }
+
+      [class*="old-price-"] {
+        text-decoration: line-through;
+        visibility: hidden;
+      }
+
+      .old-price-1,
+      .old-price-2,
+      .old-price-3 {
+        visibility: visible;
+      }
+    }
   }
 }
