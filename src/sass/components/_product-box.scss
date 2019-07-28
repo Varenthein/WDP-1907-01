@@ -2,6 +2,13 @@
   background-color: #ffffff;
   border: 1px solid #e1e1e1;
   margin-bottom: 2rem;
+  &:hover {
+    .photo {
+      .buttons {
+        opacity: 1;
+      }
+    }
+  }
 
   .photo {
     position: relative;
@@ -29,6 +36,7 @@
     .buttons {
       display: flex;
       justify-content: space-between;
+      opacity: 0;
     }
   }
 
