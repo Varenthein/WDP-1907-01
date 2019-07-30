@@ -86,14 +86,12 @@
         display: inline-block;
       }
 
-      [class*="old-price-"] {
+      .old-price {
         text-decoration: line-through;
         visibility: hidden;
       }
 
-      .old-price-1,
-      .old-price-2,
-      .old-price-3 {
+      .old-price-visible {
         visibility: visible;
       }
     }
