@@ -223,3 +223,29 @@ header {
     }
   }
 }
+
+@media (max-width: 576px) {
+  header {
+    .top-bar ul {
+      margin: 0 15px 0 0;
+    }
+
+    .company-claim {
+      .cart .cart-box {
+        margin-right: 15px;
+      }
+
+      .phone-number {
+        margin-right: 15px;
+
+        p {
+          font-size: 14px;
+
+          i {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+}
