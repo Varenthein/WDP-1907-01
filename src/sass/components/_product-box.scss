@@ -17,7 +17,7 @@
 
   .photo {
     position: relative;
-    padding: 80% 10px 0 10px;
+    padding: 0;
     background: {
       color: #f4f5f7;
       size: contain;
@@ -39,6 +39,11 @@
     }
 
     .buttons {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      max-width: 262px;
+      padding: 0 10px;
       display: flex;
       justify-content: space-between;
       opacity: 0;
