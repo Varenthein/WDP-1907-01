@@ -96,5 +96,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .price {
+      max-height: 34px;
+
+      div {
+        display: inline-block;
+      }
+
+      .old-price {
+        text-decoration: line-through;
+        visibility: hidden;
+      }
+
+      .old-price-visible {
+        visibility: visible;
+      }
+    }
   }
 }
