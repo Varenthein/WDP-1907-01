@@ -193,7 +193,7 @@ header {
           a {
             text-decoration: none;
             font-size: 14px;
-            line-height: 43px;
+            line-height: 45px;
             color: $text-color;
             white-space: nowrap;
           }
@@ -209,6 +209,10 @@ header {
               a {
                 display: block;
                 padding-left: 50px;
+                &:hover {
+                  color: white;
+                  background: $primary;
+                }
               }
             }
 
