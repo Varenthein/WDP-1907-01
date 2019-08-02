@@ -60,11 +60,16 @@
       }
     }
   }
+}
 
+.tab-content {
   .dots {
     ul {
       margin: 0;
       padding: 0 0 0 1rem;
+      position: absolute;
+      right: 0;
+      top: -60px;
       list-style: none;
       background-color: #ffffff;
       transform: translateY(15px);
