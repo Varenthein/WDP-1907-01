@@ -226,8 +226,8 @@ header {
 
 @media (max-width: 576px) {
   header {
-    .top-bar ul {
-      margin: 0 15px 0 0;
+    .top-bar .text-left ul li {
+      margin-right: 0.8rem;
     }
 
     .company-claim {
