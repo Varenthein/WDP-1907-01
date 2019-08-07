@@ -78,3 +78,17 @@ footer {
     }
   }
 }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  footer {
+    .bottom-bar {
+      .copyright p {
+        text-align: left;
+      }
+
+      .socialmedia ul {
+        text-align: right;
+      }
+    }
+  }
+}
