@@ -70,6 +70,7 @@ header {
         display: inline-block;
         position: relative;
         color: #ffffff;
+        margin-right: 50px;
 
         .cart-icon {
           background-color: $primary;
@@ -87,18 +88,19 @@ header {
         }
 
         .cart-counter {
-          width: 28px;
+          width: 60px;
           height: 27px;
           border-radius: 14px;
           background-color: $header-bg;
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
+          padding-left: 10px;
           font-size: 14px;
           color: rgb(224, 227, 237);
           position: absolute;
           top: 50%;
-          right: 0;
+          right: -30%;
           transform: translate(50%, -50%);
         }
 
@@ -171,6 +173,7 @@ header {
         display: flex;
         align-items: center;
         position: relative;
+        min-width: 195px;
 
         i:first-child {
           color: $primary;
@@ -180,19 +183,56 @@ header {
         }
 
         i:last-child {
-          position: absolute;
-          right: 10px;
-          z-index: 0;
+          padding: 10px;
         }
 
-        select {
-          -webkit-appearance: none;
-          border: 0;
-          background-color: transparent;
-          outline: none;
-          padding: 5px 30px 5px 35px;
-          font-size: 14px;
-          position: relative;
+        ul {
+          margin: 0;
+          list-style-type: none;
+
+          a {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 45px;
+            color: $text-color;
+            white-space: nowrap;
+          }
+
+          ul {
+            display: none;
+
+            li {
+              display: block;
+              border-top: 1px solid $form-border-color;
+              height: 45px;
+
+              a {
+                display: block;
+                padding-left: 50px;
+
+                &:hover {
+                  color: white;
+                  background: $primary;
+                }
+              }
+            }
+
+            li:last-child {
+              border-bottom: 1px solid $form-border-color;
+            }
+          }
+        }
+
+        li:hover ul {
+          padding: 0;
+          display: block;
+          position: absolute;
+          top: 43px;
+          left: -1px;
+          border-right: 1px solid $form-border-color;
+          border-left: 1px solid $form-border-color;
+          min-width: 196px;
+          background: white;
           z-index: 1;
         }
       }
@@ -217,6 +257,32 @@ header {
           border: 0;
           background-color: transparent;
           outline: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    .top-bar .text-left ul li {
+      margin-right: 0.8rem;
+    }
+
+    .company-claim {
+      .cart .cart-box {
+        margin-top: 15px;
+      }
+
+      .phone-number {
+        margin-right: 15px;
+
+        p {
+          font-size: 14px;
+
+          i {
+            font-size: 26px;
+          }
         }
       }
     }

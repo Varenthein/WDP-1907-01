@@ -2,10 +2,22 @@
   background-color: #ffffff;
   border: 1px solid #e1e1e1;
   margin-bottom: 2rem;
+  &:hover {
+    .photo {
+      .buttons {
+        opacity: 1;
+      }
+    }
+    .actions {
+      .no-hover {
+        background-color: $primary;
+      }
+    }
+  }
 
   .photo {
     position: relative;
-    padding: 80% 10px 0 10px;
+    padding: 0;
     background: {
       color: #f4f5f7;
       size: contain;
@@ -27,8 +39,14 @@
     }
 
     .buttons {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      max-width: 262px;
+      padding: 0 10px;
       display: flex;
       justify-content: space-between;
+      opacity: 0;
     }
   }
 
@@ -78,5 +96,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .price {
+      max-height: 34px;
+
+      div {
+        display: inline-block;
+      }
+
+      .old-price {
+        text-decoration: line-through;
+        visibility: hidden;
+      }
+
+      .old-price-visible {
+        visibility: visible;
+      }
+    }
   }
 }

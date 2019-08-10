@@ -1,0 +1,15 @@
+// hover text animation time
+$transition-text-timing: 250ms;
+// hover background animation time
+$transition-background-timing: 250ms;
+
+// animation settings
+animation {
+  transition: color $transition-text-timing linear,
+    background-color $transition-background-timing linear;
+}
+
+:hover,
+:hover * {
+  @extend animation;
+}
