@@ -1,0 +1,50 @@
+.slider-brand-line {
+  position: relative;
+
+  button {
+    display: block;
+    position: absolute;
+    outline: none;
+    height: 96px;
+    padding: 0px 13px;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    font-size: 17px;
+    color: white;
+    border: none;
+    transition: 200ms;
+    background: $footer-bg;
+
+    &:hover {
+      color: $primary;
+    }
+
+    &.prev {
+      left: 0;
+    }
+
+    &.next {
+      right: 0;
+    }
+  }
+  .slider-brand {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 50px 26px;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    position: relative;
+
+    .slider-brand-item {
+      flex: 0 1 auto;
+
+      .slider-brand-item-logo {
+        padding: 25px 23px;
+        border: 1px solid $gray;
+        height: 96px;
+      }
+    }
+  }
+}
