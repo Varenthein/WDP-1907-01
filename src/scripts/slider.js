@@ -6,12 +6,12 @@ tns({
   container: '.bed-slider',
   items: 1,
   slideBy: 'page',
-  speed: 600,
+  speed: 1000,
   controls: false,
   autoplay: false,
   autoplayButtonOutput: false,
   preventScrollOnTouch: 'auto',
-  gutter: 4,
+  gutter: 5,
   mouseDrag: true,
   responsive: {
     0: {
@@ -33,11 +33,12 @@ tns({
   container: '.chair-slider',
   items: 1,
   slideBy: 'page',
-  speed: 600,
+  speed: 1000,
   controls: false,
   autoplay: false,
   autoplayButtonOutput: false,
   preventScrollOnTouch: 'auto',
+  gutter: 5,
   mouseDrag: true,
   responsive: {
     0: {
@@ -59,11 +60,12 @@ tns({
   container: '.sofa-slider',
   items: 1,
   slideBy: 'page',
-  speed: 600,
+  speed: 1000,
   controls: false,
   autoplay: false,
   autoplayButtonOutput: false,
   preventScrollOnTouch: 'auto',
+  gutter: 5,
   mouseDrag: true,
   responsive: {
     0: {
@@ -85,11 +87,12 @@ tns({
   container: '.table-slider',
   items: 1,
   slideBy: 'page',
-  speed: 600,
+  speed: 1000,
   controls: false,
   autoplay: false,
   autoplayButtonOutput: false,
   preventScrollOnTouch: 'auto',
+  gutter: 5,
   mouseDrag: true,
   responsive: {
     0: {
@@ -111,11 +114,12 @@ tns({
   container: '.dining-slider',
   items: 1,
   slideBy: 'page',
-  speed: 600,
+  speed: 1000,
   controls: false,
   autoplay: false,
   autoplayButtonOutput: false,
   preventScrollOnTouch: 'auto',
+  gutter: 5,
   mouseDrag: true,
   responsive: {
     0: {
