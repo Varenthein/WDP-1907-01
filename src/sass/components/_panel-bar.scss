@@ -29,10 +29,14 @@
 
   .menu {
     text-align: center;
+
     ul {
-      margin: 0;
+      margin: -15px 0;
       padding: 0;
       list-style: none;
+      display: flex;
+      justify-content: center;
+
       li {
         display: inline-block;
         margin: 0 0.5rem;
@@ -62,33 +66,62 @@
   }
 }
 
+.dots {
+  padding-left: 0;
+  border-bottom-color: #fff;
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    list-style: none;
+    background-color: #ffffff;
+    transform: translateY(15px);
+
+    li {
+      display: inline-block;
+      margin-left: 0.5rem;
+
+      a {
+        display: block;
+        width: 13px;
+        height: 13px;
+        border-radius: 6px;
+        background-color: #e1e1e1;
+        &.active,
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
+
+/* Styles for slider dots (new furniture) */
 .tab-content {
-  .dots {
-    ul {
-      margin: 0;
-      padding: 0 0 0 1rem;
+  position: relative;
+
+  .tab-pane {
+    .tns-nav {
       position: absolute;
       right: 0;
-      top: -60px;
-      list-style: none;
-      background-color: #ffffff;
-      transform: translateY(15px);
+      top: -40px;
+      display: flex;
 
-      li {
-        display: inline-block;
-        margin-left: 0.5rem;
+      button {
+        display: block;
+        width: 13px;
+        height: 13px;
+        margin: 0 5px;
+        border-radius: 6px;
+        padding: 0;
+        background-color: #e1e1e1;
+        border: none;
+        outline: none;
+        cursor: pointer;
 
-        a {
-          display: block;
-          width: 13px;
-          height: 13px;
-          border-radius: 6px;
-          background-color: #e1e1e1;
-
-          &.active,
-          &:hover {
-            background-color: $primary;
-          }
+        &.tns-nav-active,
+        &:hover {
+          background-color: $primary;
         }
       }
     }
