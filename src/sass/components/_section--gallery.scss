@@ -9,6 +9,15 @@
 .second {
     background-color: $second-column-color;
     height: 603px;
+
+    img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        position: absolute;
+        top: 225px;
+        left: 100px;
+        cursor: pointer;
+    }
 }
 
 .gallery-tabs {
@@ -86,5 +95,30 @@
         margin: 5px;
         background-color: $slide-images;
         max-width: 12.266667%;
+    }
+}
+
+.jumbotron {
+    span {
+        color: $text-color;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    h2 {
+        color: $jumbotron-green;
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .bed {
+        color: $primary;
+    }
+
+    .btn {
+        background-color: $jumbotron-green;
+        font-size: 14px;
+        border: none;
+        padding: 20px 30px;
+        margin-top: 20px;
     }
 }
