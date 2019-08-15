@@ -2,7 +2,7 @@
 
 ## Opis projektu
 
-DO UZUPEŁNIENIA
+Przykładowa strona sklepu zakodowana za pomocą darmowego szablonu w celu nauki kodowania stron i nauki pracy w zespole.
 
 ## Demo
 
