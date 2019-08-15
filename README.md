@@ -2,7 +2,28 @@
 
 ## Opis projektu
 
-Przykładowa strona sklepu zakodowana za pomocą darmowego szablonu w celu nauki kodowania stron i nauki pracy w zespole.
+### Strona sklepu połączona z blogiem. Oparta na Bootsrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgoda z RWD.
+
+#### Menu
+
+1. Dwie wersje językowe do wyboru - polska i angielska.
+2. Możliwość utworzenia konta lub zakupu bez rejestracji.
+
+#### Strona główna
+
+1. Możliwość porównania i kupna produktu ze strony głównej. Dla zainteresowanych szczegółowa karta produktu.
+1. Szybka zmiana ilości wyświetlanych produktów.
+1. Intuicyjny system oceny produktów.
+1. Możliwość szybkiej aktualizacji cen z pozostawieniem starej ceny.
+1. Przyjazy i prosty sytem zakupu produktu
+
+#### Blog
+
+1. Aktualne wpisy w blogu zawsze na wierzchu
+1. Możliwość edycji i dodawania nowych wpisów
+1. Możliwość komentowania wpisów
+
+####
 
 ## Demo
 
