@@ -1,0 +1,114 @@
+.section--feedback {
+  margin-bottom: 60px;
+
+  .panel-bar {
+    margin-bottom: 30px;
+
+    .row > .progress-line {
+      border-bottom: 4px solid #e2e2e2;
+    }
+
+    .heading {
+      position: relative;
+
+      .heading-text {
+        color: $primary;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 38px;
+        margin: 0;
+        letter-spacing: 1px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 45px;
+        border-bottom: 4px solid $primary;
+      }
+    }
+
+    .dots {
+      ul {
+        margin: 0;
+        padding: 0 0 0 1rem;
+        list-style: none;
+        background-color: #ffffff;
+        transform: translateY(15px);
+
+        li {
+          display: inline-block;
+          margin-left: 0.5rem;
+
+          a {
+            display: block;
+            width: 13px;
+            height: 13px;
+            border-radius: 6px;
+            background-color: #e1e1e1;
+
+            &.active,
+            &:hover {
+              background-color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .slider {
+    .slider-item {
+      padding-top: 32px;
+
+      .quote {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        i {
+          font-size: 25px;
+        }
+      }
+
+      .comment {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 13px;
+      }
+
+      .client-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+
+        div {
+          margin: 0 9px;
+
+          p {
+            font-size: 14px;
+            margin-top: 6px;
+            margin-bottom: 6px;
+
+            span {
+              font-weight: bolder;
+            }
+          }
+        }
+
+        .client-photo {
+          width: 60px;
+          height: 60px;
+          background: url("../images/user.jpg");
+          background-size: cover;
+          border: 1px solid black;
+          border-radius: 5px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
