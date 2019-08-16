@@ -2,7 +2,9 @@
 
 ## Opis projektu
 
-### Strona sklepu połączona z blogiem. Oparta na Bootsrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgoda z RWD.
+#### Strona sklepu online połączona z blogiem.
+
+Oparta na Bootsrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgoda z RWD.
 
 #### Menu
 
@@ -12,18 +14,16 @@
 #### Strona główna
 
 1. Możliwość porównania i kupna produktu ze strony głównej. Dla zainteresowanych szczegółowa karta produktu.
-1. Szybka zmiana ilości wyświetlanych produktów.
-1. Intuicyjny system oceny produktów.
-1. Możliwość szybkiej aktualizacji cen z pozostawieniem starej ceny.
-1. Przyjazy i prosty sytem zakupu produktu
+2. Szybka zmiana ilości wyświetlanych produktów.
+3. Intuicyjny system oceny produktów.
+4. Możliwość szybkiej aktualizacji cen z pozostawieniem starej ceny.
+5. Przyjazy i prosty sytem zakupu produktu
 
 #### Blog
 
 1. Aktualne wpisy w blogu zawsze na wierzchu
-1. Możliwość edycji i dodawania nowych wpisów
-1. Możliwość komentowania wpisów
-
-####
+2. Możliwość edycji i dodawania nowych wpisów
+3. Możliwość komentowania wpisów
 
 ## Demo
 
