@@ -1,11 +1,12 @@
 module.exports = {
-  "extends": "standard",
-  "parserOptions": {
-    "ecmaVersion": 5
+  extends: "standard",
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaVersion: 5
   },
-  "rules": {
+  rules: {
     "no-console": ["warn"],
     "no-debugger": ["error"],
-    "semi": [2, "always"]
+    semi: [2, "always"]
   }
 };
