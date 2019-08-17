@@ -6,7 +6,7 @@ DO UZUPEŁNIENIA
 
 ## Demo
 
-DO UZUPEŁNIENIA
+[Link do podglądu strony live](https://cocky-jepsen-075be7.netlify.com/)
 
 ## Inicjacja projektu
 
