@@ -37,6 +37,11 @@ tns({
 });
 
 tns({
+  container: '.sofa-slider',
+  ...slider
+});
+
+tns({
   container: '.table-slider',
   ...slider
 });
