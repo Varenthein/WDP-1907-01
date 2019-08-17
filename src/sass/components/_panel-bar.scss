@@ -29,6 +29,7 @@
 
   .menu {
     text-align: center;
+    margin-right: 50px;
 
     ul {
       margin: -15px 0;
@@ -102,16 +103,17 @@
 
   .tab-pane {
     .tns-nav {
-      position: absolute;
+      position: relative;
       right: 0;
       top: -40px;
       display: flex;
+      justify-content: flex-end;
 
       button {
         display: block;
         width: 13px;
         height: 13px;
-        margin: 0 5px;
+        margin: 0 0 0 10px;
         border-radius: 6px;
         padding: 0;
         background-color: #e1e1e1;
@@ -125,5 +127,21 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .panel-bar .menu {
+    margin-right: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .panel-bar .menu {
+    margin-right: 0px;
+  }
+
+  .tab-content .tab-pane .tns-nav {
+    top: -20px;
   }
 }
