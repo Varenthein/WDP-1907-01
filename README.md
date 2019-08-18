@@ -48,7 +48,7 @@ dla plików, które zostały wybrane do za-commit'owania.
 2. Każda sekcja zakodowana w pliku .html jest osobnym plikiem .html który podpinamy do pliku index.html,
 3. Każda plik stylu sekcji jest osobnym plikiem .scss który importujemy do głównego pliku stylów,
 4. Każda sekcja (plik .hmtl i .scss) posiadają swoje nazwy w zależności od położenia na stronie. Header zaczyna się od 10... kończąc na 90 - footer,
-5. W pliku variables.scss definiujemy wszystkie kolory używane w projekcie i trzymamy się używanie zmiennych przypisanych do tych kolorów,
+5. W pliku variables.scss definiujemy wszystkie kolory używane w projekcie i trzymamy się używania zmiennych przypisanych do tych kolorów,
 6. Nazwy zmiennych w variables.scss powinny mówić nam jasno o tym do jakiej sekcji należą, czy jest to styl czy kolor, co dokładnie stylujemy,
 7. Commity powinny być w miarę krótkie i zwięzłe, określające do zrobiliśmy lub jaki problem rozwiązaliśmy,
 8. Przy zakładaniu PR trzymajmy się nazewnictwa tasku z którego tworzymy PR oraz starajmy opisać się problem i rozwiązanie problemu
