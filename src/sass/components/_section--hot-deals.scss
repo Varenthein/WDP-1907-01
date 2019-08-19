@@ -54,10 +54,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     .product-photo {
       width: 100%;
       height: auto;
+    }
+    &:hover {
+      .add-to-cart {
+        opacity: 1;
+      }
+      .time-count {
+        opacity: 1;
+      }
     }
 
     .add-to-cart {
@@ -71,6 +78,7 @@
       bottom: 50%;
       transform: translate(-50%);
       color: white;
+      opacity: 0;
 
       p {
         margin-left: 5px;
@@ -84,6 +92,7 @@
     position: absolute;
     bottom: 0;
     display: flex;
+    opacity: 0;
 
     .time {
       background: $counter-color;
@@ -184,12 +193,13 @@
       position: absolute;
       width: 100%;
       padding: 25px 0 20px;
-      background: $gray-600;
+      background: black;
       transition: 2s;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      opacity: 0.5;
 
       .title-slider {
         font-size: 45px;
@@ -202,26 +212,27 @@
         }
       }
 
-      .shop-now {
-        position: absolute;
-        padding: 15px 20px;
-        background: $white;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        border-radius: 3px;
-        text-transform: uppercase;
-        color: $gray-900;
-        font-weight: 500;
-        font-size: 13px;
-      }
-
       .desc {
         font-size: 20px;
         font-weight: 300;
         text-transform: uppercase;
         color: $white;
       }
+    }
+    .shop-now {
+      z-index: 1;
+      position: absolute;
+      top: 290px;
+      padding: 15px 20px;
+      background: $white;
+      cursor: pointer;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      border-radius: 3px;
+      text-transform: uppercase;
+      color: $gray-900;
+      font-weight: 500;
+      font-size: 13px;
     }
   }
 }
