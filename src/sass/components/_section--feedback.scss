@@ -31,6 +31,15 @@
     }
 
     .dots {
+      .product-dots {
+        .carousel-dots {
+          cursor: pointer;
+        }
+
+        .tns-nav-active .carousel-dots {
+          background-color: $primary;
+        }
+      }
       ul {
         margin: 0;
         padding: 0 0 0 1rem;
@@ -59,7 +68,7 @@
     }
   }
 
-  .slider {
+  .feedback-slider {
     .slider-item {
       padding-top: 32px;
 
