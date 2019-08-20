@@ -51,4 +51,5 @@ dla plików, które zostały wybrane do za-commit'owania.
 5. W pliku variables.scss definiujemy wszystkie kolory używane w projekcie i trzymamy się używania zmiennych przypisanych do tych kolorów,
 6. Nazwy zmiennych w variables.scss powinny mówić nam jasno o tym do jakiej sekcji należą, czy jest to styl czy kolor, co dokładnie stylujemy,
 7. Commity powinny być w miarę krótkie i zwięzłe, określające do zrobiliśmy lub jaki problem rozwiązaliśmy,
-8. Przy zakładaniu PR trzymajmy się nazewnictwa tasku z którego tworzymy PR oraz starajmy opisać się problem i rozwiązanie problemu
+8. Przy zakładaniu PR trzymajmy się nazewnictwa tasku z którego tworzymy PR oraz starajmy opisać się problem i rozwiązanie problemu,
+9. W projekcie korzystamy z pakietu icon Font Awesome - w pliku icons.scss tego pakietu mamy wszystkie przydatne prefixy
