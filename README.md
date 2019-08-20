@@ -4,7 +4,7 @@
 
 #### Strona sklepu online połączona z blogiem.
 
-Oparta na Bootstrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgoda z RWD.
+Oparta na Bootstrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgodna z RWD.
 
 #### Menu
 
