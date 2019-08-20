@@ -114,8 +114,10 @@ header {
   }
 
   .menu-bar {
-    box-shadow: 2px 3.464px 6px rgba(1, 2, 2, 0.2);
+    box-shadow: 2px 3.464px 6px rgba(1, 2, 2, 0.4);
     background-color: #ffffff;
+    position: relative;
+    z-index: 1;
 
     .container > .row {
       height: 84px;
