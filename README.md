@@ -2,7 +2,28 @@
 
 ## Opis projektu
 
-DO UZUPEŁNIENIA
+#### Strona sklepu online połączona z blogiem.
+
+Oparta na Bootstrap a więc łatwa w rozbudowie, elastyczna. Lekka, bez obciążających pluginów. Zgodna z RWD.
+
+#### Menu
+
+1. Dwie wersje językowe do wyboru - polska i angielska.
+2. Możliwość utworzenia konta lub zakupu bez rejestracji.
+
+#### Strona główna
+
+1. Możliwość porównania i kupna produktu ze strony głównej. Dla zainteresowanych szczegółowa karta produktu.
+2. Szybka zmiana ilości wyświetlanych produktów.
+3. Intuicyjny system oceny produktów.
+4. Możliwość szybkiej aktualizacji cen z pozostawieniem starej ceny.
+5. Przyjazy i prosty sytem zakupu produktu
+
+#### Blog
+
+1. Aktualne wpisy w blogu zawsze na wierzchu
+2. Możliwość edycji i dodawania nowych wpisów
+3. Możliwość komentowania wpisów
 
 ## Demo
 
