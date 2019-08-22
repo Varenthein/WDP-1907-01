@@ -1,0 +1,120 @@
+.deals-first-col {
+  position: relative;
+  height: 420px;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .first-col-text {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+
+    .text-room {
+      font-size: 36px;
+    }
+
+    h5 {
+      margin-top: -10px;
+      font-size: 60px;
+    }
+
+    .text-percent {
+      font-size: 45px;
+      border: 5px solid white;
+      max-width: 65%;
+      padding: 15px;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    top: 5%;
+    left: 8%;
+    background-color: rgba(0, 0, 0, 0.4); //maybe try to define mixin with opacity
+  }
+}
+
+.deals-second-col {
+  height: 420px;
+
+  .inner-first-col-text {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: -2px;
+
+      span {
+        font-weight: 800;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 3.8px;
+    }
+
+    .price {
+      font-size: 30px;
+      color: $primary;
+      margin-top: -5px;
+    }
+  }
+
+  .inner-first {
+    height: 195px;
+    background-color: $deals-inner1-col-color;
+    overflow: hidden;
+
+    .chair1 {
+      position: absolute;
+      top: 0;
+      left: -2%;
+    }
+
+    .chair2 {
+      position: absolute;
+      top: 0;
+      left: 75%;
+    }
+  }
+
+  .inner-second {
+    @extend .inner-first;
+    background-color: $deals-inner2-col-color;
+    margin-top: 30px;
+
+    .inner-second-col-text {
+      padding-top: 15%;
+
+      h5 {
+        font-size: 24px;
+        font-weight: 400;
+        color: $primary;
+
+        span {
+          font-weight: 600;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .bed {
+      position: absolute;
+      left: -3%;
+      top: 0;
+    }
+  }
+}
