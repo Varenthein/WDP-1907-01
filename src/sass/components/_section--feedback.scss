@@ -57,9 +57,13 @@
         }
       }
     }
+
+    .tns-nav-active .carousel-dots {
+      background-color: $primary;
+    }
   }
 
-  .slider {
+  .feedback-slider {
     .slider-item {
       padding-top: 32px;
 
