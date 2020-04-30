@@ -44,7 +44,7 @@
     "sass": "^1.15.3"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.6",
     "tiny-slider": "^2.9.2"
   }
